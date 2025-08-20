@@ -8,7 +8,6 @@
     // ---------------------------- Configuração ----------------------------
     var ROLE_NAMES = [
 		'admin',
-        //'Change Management',
         //'change_coordinator',
         //'change_manager',
         //'sn_change_cab.cab_manager',
