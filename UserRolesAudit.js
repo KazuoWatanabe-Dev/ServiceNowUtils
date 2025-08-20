@@ -1,5 +1,5 @@
 /**
- * UserRoleAuditFetcher — lista usuários (ativos) que possuem pelo menos uma das ROLE_NAMES,
+ * UserRolesAudit — lista usuários (ativos) que possuem pelo menos uma das ROLE_NAMES,
  * trazendo também as roles que cada usuário possui (entre as pesquisadas).
  * Execução: Background Script (ServiceNow)
  */
