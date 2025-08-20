@@ -48,10 +48,10 @@
     var IN_CHUNK_SIZE = 100;
 
     // ---------------------------- Helpers ----------------------------
-    function isEmpty(arr) { return !arr || arr.length === 0; }
-    function chunk(arr, size) {
+    function isEmpty(array) { return !array || array.length === 0; }
+    function chunk(array, size) {
         var out = [];
-        for (var i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+        for (var i = 0; i < array.length; i += size) out.push(array.slice(i, i + size));
         return out;
     }
 
